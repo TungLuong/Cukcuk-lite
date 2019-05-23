@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CukCukLiteDemo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="price">Giá bán</string>
+    <string name="insert_product">Thêm món</string>
+    <string name="save">Cất</string>
+    <string name="product_name">Tên món</string>
+    <string name="unit">Đơn vị tính</string>
+    <string name="status">Trạng thái</string>
+    <string name="do_not_sell">Ngừng bán</string>
+    <string name="menu">Thực đơn</string>
+    <string name="selling">Bán hàng</string>
+    <string name="report">Báo cáo</string>
+    <string name="color">Màu sắc</string>
+    <string name="iconName">Biểu tượng</string>
+    <string name="Setting">Cài đặt</string>
+    <string name="custom_button">custom_button</string>
+    <string name="delete">Xóa</string>
+    <string name="finish">Xong</string>
+</resources>

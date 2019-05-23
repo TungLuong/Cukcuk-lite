@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="icon_image_size_very_small">40dp</dimen>
+    <dimen name="icon_image_size_small">50dp</dimen>
+    <dimen name="padding_very_small">10dp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="icon_image_size_medium">70dp</dimen>
+    <dimen name="marign_small">10dp</dimen>
+    <dimen name="text_size_very_small">14sp</dimen>
+    <dimen name="text_size_small">17sp</dimen>
+    <dimen name="padding_small">15dp</dimen>
+    <dimen name="marign_medium">20dp</dimen>
+
+    <dimen name="icon_size">50dp</dimen>
+    <dimen name="padding_medium">20dp</dimen>
+    <dimen name="icon_height_small">30dp</dimen>
+    <dimen name="icon_height_medium">50dp</dimen>
+    <dimen name="icon_height_large">70dp</dimen>
+    <dimen name="icon_width_small">30dp</dimen>
+    <dimen name="icon_width_medium">50dp</dimen>
+    <dimen name="icon_width_large">70dp</dimen>
+
+    <dimen name="padding_large">30dp</dimen>
+
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">30dp</dimen>
+
+    <dimen name="text_size_large">20sp</dimen>
+</resources>

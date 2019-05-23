@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomButton">
+        <attr name="color_button_default" format="color"/>
+        <attr name="color_text_pressed" format="color"/>
+        <attr name="color_button_pressed" format="color"/>
+        <attr name="color_text_default" format="color"/>
+        <attr name="corners_radius" format="float"/>
+        <attr name="title" format="string"/>
+        <attr name="icon" format="reference"/>
+    </declare-styleable>
+
+</resources>
