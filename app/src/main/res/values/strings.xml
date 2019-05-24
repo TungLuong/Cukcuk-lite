@@ -32,4 +32,14 @@
     <string name="custom_button">custom_button</string>
     <string name="delete">Xóa</string>
     <string name="finish">Xong</string>
+    <string name="exact">*</string>
+    <string name="delete_unit">Xóa đơn vị tính</string>
+    <string name="add_unit">Thêm đơn vị tính</string>
+    <string name="enter_input_unit">Nhập đơn vị tính</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="no_delete_item">Không</string>
+    <string name="agree_delete_item">Có</string>
+    <string name="note_input_not_enough">Cần nhập đầy đủ thông tin</string>
+    <string name="unit_are_chosen">Đơn vị đã được món ăn sử dụng , không thể xóa được</string>
+    <string name="unit_exist">Đơn vị đã tồn tại</string>
 </resources>

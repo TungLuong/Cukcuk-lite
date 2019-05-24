@@ -16,6 +16,7 @@
             android:id="@+id/iv_back"
             android:layout_width="?attr/actionBarSize"
             android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/selector_button_pressed"
             android:padding="@dimen/padding_small"
             android:src="@drawable/ic_arrow_back_white_24dp" />
 
@@ -29,9 +30,10 @@
             android:textSize="@dimen/text_size_medium" />
 
         <ImageView
-            android:id="@+id/iv_add"
+            android:id="@+id/iv_add_unit"
             android:layout_width="?attr/actionBarSize"
             android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/selector_button_pressed"
             android:padding="@dimen/padding_small"
             android:src="@drawable/ic_add_white_24dp" />
     </LinearLayout>
@@ -60,7 +62,7 @@
             android:layout_marginRight="@dimen/padding_medium"
             android:layout_weight="1"
             app:color_button_default="@color/colorPrimary"
-            app:color_button_pressed="@color/colorPrimaryLight"
+            app:color_button_pressed="@color/colorPrimaryVeryLight"
             app:color_text_default="@color/colorWhite"
             app:title="@string/finish" />
     </LinearLayout>

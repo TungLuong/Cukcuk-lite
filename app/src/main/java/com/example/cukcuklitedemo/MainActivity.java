@@ -15,7 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
-import com.example.cukcuklitedemo.insertproduct.InsertProductActivity;
+import com.example.cukcuklitedemo.reactproduct.insertproduct.InsertProductActivity;
 import com.example.cukcuklitedemo.menu.MenuFragment;
 
 public class MainActivity extends AppCompatActivity

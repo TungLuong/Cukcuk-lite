@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
     android:orientation="vertical"
-    tools:context=".insertproduct.InsertProductActivity">
+    tools:context=".reactproduct.insertproduct.InsertProductActivity">
 
     <LinearLayout
         android:id="@+id/ll_action_bar"
@@ -18,7 +18,7 @@
             android:id="@+id/iv_back"
             android:layout_width="?attr/actionBarSize"
             android:layout_height="?attr/actionBarSize"
-            android:background="@drawable/selector_press"
+            android:background="@drawable/selector_button_pressed"
             android:padding="@dimen/padding_small"
             android:src="@drawable/ic_arrow_back_white_24dp" />
 
@@ -35,7 +35,7 @@
             android:id="@+id/tv_save"
             android:layout_width="?attr/actionBarSize"
             android:layout_height="match_parent"
-            android:background="@drawable/selector_press"
+            android:background="@drawable/selector_button_pressed"
             android:gravity="center"
             android:text="@string/save"
             android:textAllCaps="false"
@@ -68,6 +68,7 @@
         android:padding="@dimen/padding_very_small">
 
         <com.example.cukcuklitedemo.customview.CustomButton
+            app:corners_radius="10"
             app:title="@string/save"
             android:id="@+id/btn_save"
             style="@style/Widget.AppCompat.Button"
@@ -77,7 +78,7 @@
             android:layout_marginRight="@dimen/padding_medium"
             android:layout_weight="1"
             app:color_button_default="@color/colorPrimary"
-            app:color_button_pressed="@color/colorPrimaryLight"
+            app:color_button_pressed="@color/colorPrimaryVeryLight"
             app:color_text_default="@color/colorWhite" />
     </LinearLayout>
 

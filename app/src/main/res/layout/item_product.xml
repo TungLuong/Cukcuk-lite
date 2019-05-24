@@ -1,52 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingLeft="@dimen/padding_very_small"
-    android:background="@drawable/selector_press">
-    <ImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ripple_item"
+    android:paddingStart="@dimen/padding_very_small"
+    android:paddingLeft="@dimen/padding_very_small">
+
+    <com.example.cukcuklitedemo.customview.CustomIcon
+        app:image_icon="@drawable/ic_color_lens_white_24dp"
+        app:color_background="@color/colorPrimary"
         android:id="@+id/iv_icon"
-        android:padding="@dimen/padding_very_small"
-        android:src="@drawable/default_avatar"
-        android:layout_marginRight="@dimen/marign_small"
         android:layout_width="@dimen/icon_image_size_medium"
-        android:layout_height="@dimen/icon_image_size_medium" />
+        android:layout_height="@dimen/icon_image_size_medium"
+        android:layout_marginRight="@dimen/marign_small"
+        />
+
     <LinearLayout
-        android:gravity="center_vertical"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:gravity="center_vertical"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/tv_product_name"
-            android:textColor="@color/colorBlack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Bo huc"
+            android:textColor="@color/colorBlack"
             android:textSize="@dimen/text_size_medium"
-            android:textStyle="bold"
-            android:text="Bo huc"/>
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/text_size_small"
-                android:text="@string/price"/>
+                android:text="@string/price"
+                android:textSize="@dimen/text_size_small" />
+
             <TextView
                 android:id="@+id/tv_product_price"
-                android:layout_marginLeft="@dimen/marign_small"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/text_size_small"
-                android:text="12.000"/>
+                android:layout_marginLeft="@dimen/marign_small"
+                android:text="12.000"
+                android:textSize="@dimen/text_size_small" />
         </LinearLayout>
     </LinearLayout>
+
     <ImageView
-        android:src="@drawable/ic_keyboard_arrow_right_gray_24dp"
         android:layout_width="@dimen/icon_image_size_small"
-        android:layout_height="@dimen/icon_image_size_medium" />
+        android:layout_height="@dimen/icon_image_size_medium"
+        android:src="@drawable/ic_keyboard_arrow_right_gray_24dp" />
 
 </LinearLayout>

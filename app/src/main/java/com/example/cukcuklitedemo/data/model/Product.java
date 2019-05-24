@@ -9,6 +9,7 @@ public class Product implements Serializable {
     private Unit unit;
     private ColorBackground background;
     private String iconName;
+    private int isSellStop = 0;
 
     public Product() {
     }
@@ -59,5 +60,13 @@ public class Product implements Serializable {
 
     public void setIconName(String iconName) {
         this.iconName = iconName;
+    }
+
+    public int getIsSellStop() {
+        return isSellStop;
+    }
+
+    public void setIsSellStop(int isSellStop) {
+        this.isSellStop = isSellStop;
     }
 }

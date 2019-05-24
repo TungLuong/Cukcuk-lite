@@ -9,9 +9,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".unit.UnitActivity"></activity>
         <activity
-            android:name=".insertproduct.InsertProductActivity"
+            android:name=".reactproduct.insertproduct.InsertProductActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".updateProduct.UpdateProductActivity"/>
+        <activity android:name=".reactproduct.updateProduct.UpdateProductActivity"/>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/colorWhite"
     android:orientation="vertical">
 
@@ -28,7 +30,8 @@
                 android:paddingStart="@dimen/padding_very_small"
                 android:paddingLeft="@dimen/padding_very_small"
                 android:text="@string/product_name"
-                android:textSize="@dimen/text_size_very_small" />
+                android:textSize="@dimen/text_size_very_small"
+                tools:ignore="RtlSymmetry" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -36,7 +39,7 @@
                 android:background="@color/colorWhite"
                 android:gravity="center_vertical"
                 android:maxLines="1"
-                android:text=" *"
+                android:text="@string/exact"
                 android:textColor="@color/colorRed" />
         </LinearLayout>
 
@@ -51,7 +54,10 @@
             android:hint="@string/product_name"
             android:inputType="text"
             android:maxLines="1"
+            android:paddingStart="@dimen/padding_very_small"
             android:paddingLeft="@dimen/padding_very_small"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingRight="@dimen/padding_small"
             android:textColor="@color/colorBlack"
             android:textSize="@dimen/text_size_small" />
 
@@ -83,6 +89,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/marign_small"
                 android:layout_marginRight="@dimen/marign_small"
                 android:background="@color/colorWhite"
                 android:gravity="center_vertical"
@@ -90,27 +97,34 @@
                 android:paddingStart="@dimen/padding_very_small"
                 android:paddingLeft="@dimen/padding_very_small"
                 android:text="@string/price"
-                android:textSize="@dimen/text_size_very_small" />
+                android:textSize="@dimen/text_size_very_small"
+                tools:ignore="RtlSymmetry" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/tv_product_price"
-
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
+            android:background="@drawable/ripple_item"
             android:gravity="center_vertical|end"
             android:maxLines="1"
+            android:paddingStart="@dimen/padding_very_small"
             android:paddingLeft="@dimen/padding_very_small"
-            android:text="8.000"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingRight="@dimen/padding_small"
             android:textColor="@color/colorBlack"
             android:textSize="@dimen/text_size_small" />
 
         <ImageView
             android:layout_width="@dimen/icon_image_size_very_small"
             android:layout_height="@dimen/icon_image_size_small"
-            android:padding="@dimen/padding_very_small"
-            android:src="@drawable/ic_keyboard_arrow_right_gray_24dp" />
+            android:paddingTop="@dimen/padding_small"
+            android:paddingEnd="@dimen/padding_very_small"
+            android:paddingRight="@dimen/padding_very_small"
+            android:paddingBottom="@dimen/padding_small"
+            android:src="@drawable/ic_keyboard_arrow_right_gray_24dp"
+            tools:ignore="RtlSymmetry" />
     </LinearLayout>
 
     <View
@@ -141,7 +155,8 @@
                 android:paddingStart="@dimen/padding_very_small"
                 android:paddingLeft="@dimen/padding_very_small"
                 android:text="@string/unit"
-                android:textSize="@dimen/text_size_very_small" />
+                android:textSize="@dimen/text_size_very_small"
+                tools:ignore="RtlSymmetry" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -149,7 +164,7 @@
                 android:background="@color/colorWhite"
                 android:gravity="center_vertical"
                 android:maxLines="1"
-                android:text=" *"
+                android:text="@string/exact"
                 android:textColor="@color/colorRed" />
         </LinearLayout>
 
@@ -158,18 +173,25 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
+            android:background="@drawable/ripple_item"
             android:gravity="center_vertical|end"
             android:maxLines="1"
+            android:paddingStart="@dimen/padding_very_small"
             android:paddingLeft="@dimen/padding_very_small"
-            android:text="Chai"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingRight="@dimen/padding_small"
             android:textColor="@color/colorBlack"
             android:textSize="@dimen/text_size_small" />
 
         <ImageView
             android:layout_width="@dimen/icon_image_size_very_small"
             android:layout_height="@dimen/icon_image_size_small"
-            android:padding="@dimen/padding_very_small"
-            android:src="@drawable/ic_keyboard_arrow_right_gray_24dp" />
+            android:paddingTop="@dimen/padding_small"
+            android:paddingEnd="@dimen/padding_very_small"
+            android:paddingRight="@dimen/padding_very_small"
+            android:paddingBottom="@dimen/padding_small"
+            android:src="@drawable/ic_keyboard_arrow_right_gray_24dp"
+            tools:ignore="RtlSymmetry" />
     </LinearLayout>
 
     <View
@@ -180,7 +202,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-
+        android:weightSum="4"
         android:layout_height="wrap_content"
         android:background="@color/colorWhite"
         android:orientation="horizontal">
@@ -188,7 +210,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:orientation="horizontal">
 
             <TextView
@@ -202,22 +224,25 @@
                 android:paddingStart="@dimen/padding_very_small"
                 android:paddingLeft="@dimen/padding_very_small"
                 android:text="@string/color"
-                android:textSize="@dimen/text_size_very_small" />
+                android:textSize="@dimen/text_size_very_small"
+                tools:ignore="RtlSymmetry" />
 
-            <ImageView
-                android:id="@+id/iv_color_backgroud"
+            <com.example.cukcuklitedemo.customview.CustomIcon
+                app:image_icon="@drawable/ic_color_lens_white_24dp"
+                app:color_background="@color/colorPrimary"
+                android:id="@+id/iv_background_color"
                 android:layout_width="@dimen/icon_image_size_medium"
                 android:layout_height="@dimen/icon_image_size_medium"
                 android:layout_marginRight="@dimen/marign_small"
-                android:padding="@dimen/padding_very_small"
-                android:src="@drawable/default_avatar" />
+                />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -230,16 +255,17 @@
                 android:paddingStart="@dimen/padding_very_small"
                 android:paddingLeft="@dimen/padding_very_small"
                 android:text="@string/iconName"
-                android:textSize="@dimen/text_size_very_small" />
+                android:textSize="@dimen/text_size_very_small"
+                tools:ignore="RtlSymmetry" />
 
-            <ImageView
-                android:id="@+id/iv_icon"
+            <com.example.cukcuklitedemo.customview.CustomIcon
+                app:image_icon="@drawable/ic_color_lens_white_24dp"
+                app:color_background="@color/colorPrimary"
+                android:id="@+id/iv_icon_product"
                 android:layout_width="@dimen/icon_image_size_medium"
                 android:layout_height="@dimen/icon_image_size_medium"
-                android:layout_marginEnd="@dimen/marign_small"
                 android:layout_marginRight="@dimen/marign_small"
-                android:padding="@dimen/padding_very_small"
-                android:src="@drawable/default_avatar" />
+                />
         </LinearLayout>
 
     </LinearLayout>

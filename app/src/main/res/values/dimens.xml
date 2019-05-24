@@ -31,5 +31,5 @@
     <dimen name="margin_medium">20dp</dimen>
     <dimen name="margin_large">30dp</dimen>
 
-    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
 </resources>

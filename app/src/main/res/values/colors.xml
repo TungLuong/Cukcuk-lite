@@ -5,9 +5,13 @@
     <color name="colorAccent">#145D99</color>
     <color name="colorBlack">#000</color>
     <color name="colorWhite">#FFF</color>
-    <color name="colorTransparent">#80000000</color>
+    <color name="colorTransparent">#0000</color>
     <color name="colorRed">#F44336</color>
     <color name="colorGray">#D2242222</color>
-    <color name="colorPrimaryLight">#67B3F0</color>
+    <color name="colorPrimaryVeryLight">#9ACBF1</color>
     <color name="colorRedLight">#F78E85</color>
+    <color name="colorGrayLight">#D2CEC8C8</color>
+    <color name="colorPrimaryLight">#3C9AE6</color>
+    <color name="colorGrayVeryLight">#F2F2F3</color>
+
 </resources>

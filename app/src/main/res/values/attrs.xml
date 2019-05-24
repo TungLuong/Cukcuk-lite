@@ -11,4 +11,9 @@
         <attr name="icon" format="reference"/>
     </declare-styleable>
 
+    <declare-styleable name="CustomIcon">
+        <attr name="color_background" format="color"/>
+        <attr name="image_icon" format="reference"/>
+    </declare-styleable>
+
 </resources>

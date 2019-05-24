@@ -1,14 +1,12 @@
-package com.example.cukcuklitedemo.insertproduct;
+package com.example.cukcuklitedemo.reactproduct.insertproduct;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
 
-import com.example.cukcuklitedemo.Base.BaseProductActivity;
+import com.example.cukcuklitedemo.reactproduct.ReactProductActivity;
 import com.example.cukcuklitedemo.R;
 import com.example.cukcuklitedemo.customview.CustomButton;
 
-public class InsertProductActivity extends BaseProductActivity {
+public class InsertProductActivity extends ReactProductActivity {
 
     private CustomButton btnSave;
 
@@ -28,6 +26,11 @@ public class InsertProductActivity extends BaseProductActivity {
     protected void initView() {
          super.initView();
          btnSave = findViewById(R.id.btn_save);
+    }
+
+    @Override
+    protected void saveProduct() {
+
     }
 
 

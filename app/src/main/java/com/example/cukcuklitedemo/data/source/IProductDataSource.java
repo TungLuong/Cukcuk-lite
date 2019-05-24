@@ -13,11 +13,11 @@ public interface IProductDataSource {
     List<Unit> getListUnit();
 
     boolean insertProduct(Product product);
-    boolean updateProduct(Product product);
-    boolean deleteProduct(int productId);
+    boolean deleteProduct(Product product);
 
     boolean insertUnit(Unit unit);
     boolean updateUnit(Unit unit);
-    boolean deleteUnit(int productId);
+    boolean deleteUnit(int unitId);
+    Unit getUnitById(int unitId);
 
 }

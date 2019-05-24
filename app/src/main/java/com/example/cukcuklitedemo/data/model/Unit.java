@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Unit implements Serializable {
     private int unitId;
     private String unitName;
-    private int isChose = 0;
+    private int countChose = 0;
 
     public Unit() {
     }
@@ -26,11 +26,11 @@ public class Unit implements Serializable {
         this.unitName = unitName;
     }
 
-    public int getIsChose() {
-        return isChose;
+    public int getCountChose() {
+        return countChose;
     }
 
-    public void setIsChose(int isChose) {
-        this.isChose = isChose;
+    public void setCountChose(int countChose) {
+        this.countChose = countChose;
     }
 }

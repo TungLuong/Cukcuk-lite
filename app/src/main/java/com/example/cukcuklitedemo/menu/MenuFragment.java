@@ -1,5 +1,6 @@
 package com.example.cukcuklitedemo.menu;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,8 +14,9 @@ import com.example.cukcuklitedemo.Common.Common;
 import com.example.cukcuklitedemo.IListener;
 import com.example.cukcuklitedemo.R;
 import com.example.cukcuklitedemo.data.model.Product;
+import com.example.cukcuklitedemo.data.model.Unit;
 import com.example.cukcuklitedemo.data.source.ProductRepository;
-import com.example.cukcuklitedemo.updateProduct.UpdateProductActivity;
+import com.example.cukcuklitedemo.reactproduct.updateProduct.UpdateProductActivity;
 
 
 public class MenuFragment extends Fragment implements IListener.IClickItem, IMenuContact.IView {
@@ -87,4 +89,5 @@ public class MenuFragment extends Fragment implements IListener.IClickItem, IMen
         intent.putExtras(bundle);
         startActivity(intent);
     }
+
 }

@@ -56,31 +56,62 @@ public class ProductRepository implements IProductDataSource {
 
     @Override
     public boolean insertProduct(Product product) {
+
+        try {
+            return productHelper.insertProduct(product);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return false;
     }
 
     @Override
-    public boolean updateProduct(Product product) {
-        return false;
-    }
-
-    @Override
-    public boolean deleteProduct(int productId) {
+    public boolean deleteProduct(Product product) {
+        try {
+            return productHelper.deleteProduct(product);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return false;
     }
 
     @Override
     public boolean insertUnit(Unit unit) {
+        try {
+            return productHelper.insertUnit(unit);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return false;
     }
 
     @Override
     public boolean updateUnit(Unit unit) {
+        try {
+            return productHelper.updateUnit(unit);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return false;
     }
 
     @Override
-    public boolean deleteUnit(int productId) {
+    public boolean deleteUnit(int unitId) {
+        try {
+            return productHelper.deleteUnit(unitId);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return false;
+    }
+
+    @Override
+    public Unit getUnitById(int unitId) {
+        try {
+            productHelper.getUnitById(unitId);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return new Unit();
     }
 }

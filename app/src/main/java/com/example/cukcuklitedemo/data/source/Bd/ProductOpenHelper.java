@@ -122,7 +122,7 @@ public class ProductOpenHelper extends SQLiteOpenHelper {
      * @return cơ sở dữ liệu
      */
     public SQLiteDatabase getDatabase() {
-        if (mDatabase == null) openDatabase();
+        if (mDatabase == null || !mDatabase.isOpen()) openDatabase();
         return this.mDatabase;
     }
 
